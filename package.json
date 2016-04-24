@@ -1,0 +1,7 @@
+{
+  "name": "karma-systemjs",
+  "main": "lib/index.js",
+  "dependencies": {
+    "systemjs-builder": "^0.15.15"
+  }
+}
