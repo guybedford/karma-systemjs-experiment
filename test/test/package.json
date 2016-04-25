@@ -1,0 +1,16 @@
+{
+  "jspm": {
+    "name": "example-app",
+    "main": "example-app.js",
+    "directories": {
+      "lib": "example-app"
+    },
+    "dependencies": {
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@^0.0.107",
+      "unexpected": "npm:unexpected@^10.13.2"
+    },
+    "devDependencies": {
+      "plugin-traceur": "npm:systemjs-plugin-traceur@^0.0.1"
+    }
+  }
+}
