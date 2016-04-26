@@ -4,7 +4,7 @@
 module.exports = function(config) {
   config.set({
     plugins: [
-        'karma-systemjs',
+        require('../'),
         'karma-mocha',
         'karma-chrome-launcher',
         'karma-coverage'
