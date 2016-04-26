@@ -8,6 +8,8 @@ Created to explore:
 
 ### Running the Example
 
+Ensure `jspm@beta` is installed globally. Then:
+
 ```
 npm install
 npm install github:systemjs/builder#master
