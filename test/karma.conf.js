@@ -29,7 +29,7 @@ module.exports = function(config) {
     
     frameworks: ['systemjs', 'mocha'],
     preprocessors: {
-        'example-app/amd.js': ['systemjs', 'coverage']
+        'example-app/*.js': ['systemjs', 'coverage']
     },
 
 

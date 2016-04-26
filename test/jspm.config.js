@@ -1,12 +1,11 @@
 SystemJS.config({
-  transpiler: "plugin-traceur",
-  traceurOptions: {
-    "asyncFunctions": true
-  },
+  transpiler: "plugin-babel",
   packages: {
     "example-app": {
-      "main": "example-app.js"
     }
+  },
+  map: {
+    "unexpected": "npm:unexpected@10.13.2"
   }
 });
 
@@ -17,16 +16,7 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
-    "plugin-traceur": "npm:systemjs-plugin-traceur@0.0.1",
-    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.107",
-    "unexpected": "npm:unexpected@10.13.2"
+    "plugin-babel": "npm:systemjs-plugin-babel@0.0.9"
   },
-  packages: {
-    "npm:systemjs-plugin-traceur@0.0.1": {
-      "map": {
-        "traceur": "github:jmcriffey/bower-traceur@0.0.95",
-        "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.95"
-      }
-    }
-  }
+  packages: {}
 });

@@ -1,1 +1,13 @@
-{}
+{
+  "jspm": {
+    "name": "example-app",
+    "main": "example-app.js",
+    "directories": {
+      "lib": "example-app"
+    },
+    "dependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.9"
+    },
+    "devDependencies": {}
+  }
+}
