@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "dependencies": {
-    "karma-coverage": "^0.5.5",
     "remap-istanbul": "^0.6.3",
     "systemjs-builder": "github:systemjs/builder#master"
   }
