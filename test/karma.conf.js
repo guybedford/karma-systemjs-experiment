@@ -20,6 +20,7 @@ module.exports = function(config) {
     basePath: '',
 
     systemjs: {
+        baseURL: '.',
         systemPath: 'jspm_packages/system.src.js',
         configFiles: ['jspm.browser.js', 'jspm.config.js'],
         imports: ['example-tests/index.js'],
