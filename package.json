@@ -1,5 +1,6 @@
 {
   "name": "karma-systemjs",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "dependencies": {
     "karma-coverage": "^0.5.5",
