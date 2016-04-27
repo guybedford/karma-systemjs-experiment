@@ -12,7 +12,6 @@ Ensure `jspm@beta` is installed globally. Then:
 
 ```
 npm install
-npm install github:systemjs/builder#master
 cd test
 npm install
 jspm install
